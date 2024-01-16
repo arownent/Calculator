@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calbody{
+  background-color: rgba(0, 0, 0, 0.884);
+  padding: 1vw;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+
+}
+.display{
+  height: 8vw;
+  width: 20vw;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 2vw;
+  font-size: xx-large;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.buttondiv{
+  display: flex;
+  cursor: pointer;
+}
+.buttonbox{
+  height: 5vw;
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.orangebutton{
+  color: #FF4500;
+}
+.equalbutton{
+  background-color: #FF4500;
+  border-radius: 50%;
+}
